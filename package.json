@@ -7,9 +7,16 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "boostrap": "^2.0.0",
+    "bootstrap5": "^1.1.9",
+    "jsx": "^0.9.89",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "task.js": "^0.1.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

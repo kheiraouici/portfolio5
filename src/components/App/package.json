@@ -1,0 +1,36 @@
+{
+  "name": "task.js",
+  "version": "0.1.5",
+  "description": "Simplified interface for getting code to run on different cores (node.js, and web)",
+  "main": "./dist/server/server",
+  "browser": "./dist/client/client",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine ./spec/server/index.js; DISABLE_DEBUG_TEST=1 node ./spec/client/jasmine",
+    "test-dev": "./node_modules/.bin/jasmine ./spec/server/index.js; node ./spec/client/jasmine",
+    "build": "rm -rf ./dist; ./node_modules/.bin/babel src -d dist/server; ./node_modules/.bin/babel src -d dist/client; ./node_modules/.bin/webpack --config webpack.config.js;"
+  },
+  "author": "Chad Scira <chadvscira@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-syntax-import-meta": "7.2.0",
+    "@babel/preset-env": "7.5.5",
+    "babel-eslint": "9.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "6.26.0",
+    "bluebird": "3.4.1",
+    "eslint": "6.2.2",
+    "jasmine": "3.4.0",
+    "puppeteer": "1.19.0",
+    "string-saw": "0.0.42",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.9"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
