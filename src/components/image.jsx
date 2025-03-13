@@ -1,0 +1,1 @@
+<images source={require('/images/banner.jpg')} />

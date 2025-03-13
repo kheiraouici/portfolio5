@@ -1,14 +1,13 @@
-import Header from './components/Header.js'
-
+import Header from './components/Header.js';
+import Main from './components/main.js';
 const App = ()=> {
 
   return (
 
-    <Header />
-
-  )
-
+    <Header />)
+   (  <Main /> )
+    
 }
-
-
 export default App
+    
+      

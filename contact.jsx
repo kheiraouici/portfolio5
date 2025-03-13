@@ -1,5 +1,4 @@
-import Header from "./components/header"
-
+import Header from "./components/header";
 const App =()=>{
   return (
   <Header>
@@ -32,11 +31,12 @@ const App =()=>{
     </div>
 
 </nav>
-  </Header>
-  )
- 
+  </Header>)
+  
 }
 export default App
 
 
-  
+
+
+
