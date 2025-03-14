@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.App.skill.skill.list.skill-item.full {
+  width: 100%;
+  background-color: white;
+  height: 15%;
+  border: 7px;
+} 
+.App.skill.skill-list.skill.skill-item.full.percent-first{
+  background-color: red;
+  height: 100%;
+  width : 90%;
+}
